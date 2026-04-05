@@ -6,7 +6,6 @@ class UnitType(StrEnum):
     CHILD = auto()
     YOUTH = auto()
     ADULT = auto()
-    PERSON = auto()
 
 
 class DataExtractionMode(StrEnum):
