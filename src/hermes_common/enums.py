@@ -10,8 +10,8 @@ class UnitType(StrEnum):
 
 class DataExtractionMode(StrEnum):
     DISABLED = auto()
-    COLOSSEUM = auto()
-    SEVILLE = auto()
+    DEFAULT = auto()
+    DEFAULT_WITH_ID = auto()
 
 
 class ParticipantExtractionStatus(StrEnum):
