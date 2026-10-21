@@ -12,9 +12,3 @@ class DataExtractionMode(StrEnum):
     DISABLED = auto()
     DEFAULT = auto()
     DEFAULT_WITH_ID = auto()
-
-
-class ParticipantExtractionStatus(StrEnum):
-    INCOMPLETE_DATA = auto()
-    UNIT_TYPE_MISMATCH = auto()
-    OK = auto()
